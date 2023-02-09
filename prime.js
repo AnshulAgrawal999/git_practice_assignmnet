@@ -7,13 +7,13 @@ if ( num == 2 )
         console.log ( "It is a Prime number" )  ;
     }
     
-    else if ( num%2 )
+    else if ( num%2==0 )
     {
         let flag = false  ;
         
         for ( let i = 3 ; i*i<=num ; i=i+2 )
         {
-            if ( num%i )
+            if ( num%i==0 )
             {
                 continue  ;
             }
